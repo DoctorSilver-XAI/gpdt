@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0.0",
+  "entity_type": "team",
+  "members": [
+    {
+      "full_name": "Gauthier Humbert",
+      "role": "Titulaire",
+      "type": "pharmacist_owner",
+      "specialties": [],
+      "photo": "/media/team/gauthier-humbert.webp"
+    },
+    {
+      "full_name": "François Claron",
+      "role": "Titulaire",
+      "type": "pharmacist_owner",
+      "specialties": [
+        "Accompagnement futures et jeunes mamans",
+        "Compression veineuse",
+        "Contraception d'urgence",
+        "Contrôle de la douleur",
+        "Diabète",
+        "Incontinence urinaire",
+        "Maintien à domicile",
+        "Orthopédie",
+        "Sevrage tabagique",
+        "Vaccination",
+        "Orthèse"
+      ],
+      "photo": "/media/team/francois-claron.webp"
+    },
+    {
+      "full_name": "Stephanie Bonnet",
+      "role": "Pharmacien adjoint",
+      "type": "pharmacist_assistant",
+      "specialties": [],
+      "photo": null
+    },
+    {
+      "full_name": "Emeline Richez",
+      "role": "Pharmacien adjoint",
+      "type": "pharmacist_assistant",
+      "specialties": [
+        "Contrôle de la douleur",
+        "Diabète",
+        "Micro nutrition",
+        "Maintien à domicile",
+        "Orthopédie",
+        "Vaccination",
+        "Test angine",
+        "Location et vente de matériel médical",
+        "Accompagnement futures et jeunes mamans",
+        "Aromathérapie",
+        "Sevrage tabagique"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Paola Costantini",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [],
+      "photo": null
+    },
+    {
+      "full_name": "Virginie Parriel",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Aromathérapie",
+        "Compression veineuse",
+        "Contrôle de la douleur",
+        "Prothèses mammaires externes"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Stéphanie Collomb",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Homéopathie",
+        "Orthèse",
+        "Prothèses mammaires externes",
+        "Orthopédie"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Sabrina Comberien",
+      "role": "Stockiste",
+      "type": "storekeeper",
+      "specialties": [
+        "Accompagnement futures et jeunes mamans"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Fabien Segues",
+      "role": "Responsable Matériel Médical",
+      "type": "medical_equipment_manager",
+      "specialties": [
+        "Maintien à domicile"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Charlotte Lesterlin",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [],
+      "photo": null
+    },
+    {
+      "full_name": "Marjorie Bruno",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Compression veineuse",
+        "Contrôle de la douleur",
+        "Diabète",
+        "Test Antigénique COVID 19",
+        "Depistage diabète",
+        "Maintien à domicile",
+        "Location et vente de matériel médical"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Laetitia Nasso",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Accompagnement futures et jeunes mamans",
+        "Location et vente de matériel médical"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "MAy Zucca",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Maintien à domicile",
+        "Test Antigénique COVID 19",
+        "Accompagnement futures et jeunes mamans",
+        "Vaccination",
+        "Orthopédie",
+        "Location et vente de matériel médical"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Aicha Radoine",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Contrôle de la douleur",
+        "Diabète",
+        "Micro nutrition",
+        "Accompagnement futures et jeunes mamans",
+        "Nutrition",
+        "Vaccination",
+        "Médecines douces",
+        "Location et vente de matériel médical"
+      ],
+      "photo": null
+    },
+    {
+      "full_name": "Elodie Attard",
+      "role": "Préparateur",
+      "type": "pharmacy_technician",
+      "specialties": [
+        "Nutrition sportive",
+        "Micro nutrition",
+        "Diététique",
+        "Cosmétique",
+        "Accompagnement futures et jeunes mamans",
+        "Maintien à domicile",
+        "Test Antigénique COVID 19",
+        "Location et vente de matériel médical",
+        "Orthopédie"
+      ],
+      "photo": null
+    }
+  ],
+  "notes": [
+    "Liste issue de l'affichage MyPharmactiv. À valider et compléter: orthographe, photos, mini-bio, langues par personne."
+  ]
+}

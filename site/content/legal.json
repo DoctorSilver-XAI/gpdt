@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "entity_type": "legal",
+  "status": "draft_placeholders",
+  "required_fields_to_fill": {
+    "raison_sociale": null,
+    "forme_juridique": null,
+    "siret": null,
+    "rpps_pharmacien_responsable": null,
+    "adresse_siege": null,
+    "directeur_publication": null,
+    "hebergeur": null,
+    "contact_rgpd": null
+  },
+  "notes": [
+    "À compléter avec les informations légales exactes de la pharmacie et de l’hébergement.",
+    "Prévoir une page confidentialité et une politique cookies cohérente avec l’outil analytics."
+  ]
+}

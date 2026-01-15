@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "entity_type": "faq",
+  "disclaimer": "FAQ de départ. À enrichir avec vos 20 questions terrain (téléphone + comptoir).",
+  "items": [
+    {
+      "q": "Quels sont vos horaires aujourd'hui ?",
+      "a": "Ouvert du lundi au samedi de 08:30 à 20:00. Dimanche fermé."
+    },
+    {
+      "q": "Puis-je transmettre mon ordonnance en ligne ?",
+      "a": "Oui, via MyPharmactiv. Utilisez le lien “Transmettre une ordonnance”."
+    },
+    {
+      "q": "Comment prendre rendez-vous ?",
+      "a": "Vous pouvez réserver via le hub “Prendre rendez-vous” (Doctolib ou MyPharmactiv selon le service)."
+    },
+    {
+      "q": "Faites-vous la vaccination ?",
+      "a": "Oui. Consultez la page Vaccination pour les conditions et la prise de rendez-vous."
+    },
+    {
+      "q": "Proposez-vous du matériel médical (vente/location) ?",
+      "a": "Oui. Contactez-nous pour préciser le besoin et les délais."
+    },
+    {
+      "q": "Avez-vous une activité orthopédie / contention ?",
+      "a": "Oui. Un rendez-vous est conseillé selon la demande."
+    },
+    {
+      "q": "Faites-vous un dépistage diabète ?",
+      "a": "Oui. Consultez la page “Dépistage diabète” pour le déroulé et la prise de rendez-vous."
+    },
+    {
+      "q": "Je suis touriste. Parlez-vous anglais ?",
+      "a": "Oui. Plusieurs langues sont indiquées sur notre page d’informations pratiques."
+    },
+    {
+      "q": "Que faire en cas d’urgence médicale ?",
+      "a": "Appelez le 15 (SAMU) ou le 112. Le site ne remplace pas une prise en charge urgente."
+    }
+  ]
+}

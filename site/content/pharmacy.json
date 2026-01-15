@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "entity_type": "pharmacy_profile",
+  "identity": {
+    "display_name": "Grande Pharmacie de Tassigny",
+    "city": "Fréjus",
+    "postal_code": "83600",
+    "address_line_1": "1598 Avenue de Lattre de Tassigny",
+    "country": "France",
+    "timezone": "Europe/Paris"
+  },
+  "contact": {
+    "phone": "+33 4 94 51 58 02",
+    "fax": "+33 4 94 53 75 94",
+    "email": null,
+    "notes": "Email public à confirmer (la fiche MyPharmactiv propose un bouton de contact)."
+  },
+  "languages_spoken": [
+    "fr",
+    "en",
+    "de",
+    "ar",
+    "it"
+  ],
+  "opening_hours": {
+    "monday": [
+      {
+        "opens": "08:30",
+        "closes": "20:00"
+      }
+    ],
+    "tuesday": [
+      {
+        "opens": "08:30",
+        "closes": "20:00"
+      }
+    ],
+    "wednesday": [
+      {
+        "opens": "08:30",
+        "closes": "20:00"
+      }
+    ],
+    "thursday": [
+      {
+        "opens": "08:30",
+        "closes": "20:00"
+      }
+    ],
+    "friday": [
+      {
+        "opens": "08:30",
+        "closes": "20:00"
+      }
+    ],
+    "saturday": [
+      {
+        "opens": "08:30",
+        "closes": "20:00"
+      }
+    ],
+    "sunday": []
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/grandepharmaciedetassigny/",
+    "instagram": "https://www.instagram.com/grandepharmaciedetassigny/"
+  },
+  "public_links": {
+    "mypharmactiv_listing": "https://www.mypharmactiv.fr/pharmacie/grande-pharmacie-tassigny-frejus",
+    "existing_website": "https://www.pharmacietassigny.fr/",
+    "doctolib": "https://www.doctolib.fr/pharmacie/frejus/grande-pharmacie-de-tassigny"
+  },
+  "notes_to_confirm": [
+    {
+      "field": "contact.email",
+      "why": "Coordonnée utile pour page contact + RGPD"
+    },
+    {
+      "field": "parking",
+      "why": "Info pratique forte (conversion)"
+    },
+    {
+      "field": "pmr_access",
+      "why": "Accessibilité (confiance + conformité)"
+    },
+    {
+      "field": "emergency_message",
+      "why": "Bandeau sécurité: 15/112, horaires de garde"
+    }
+  ]
+}

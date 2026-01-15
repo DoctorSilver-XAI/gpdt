@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0.0",
+  "entity_type": "services_catalog",
+  "services": [
+    {
+      "slug": "vaccination",
+      "name": "Vaccination",
+      "category": "prevention",
+      "short_promise": "Se faire vacciner avec un parcours clair et rapide.",
+      "description": "Page service à construire: éligibilité, documents à apporter, déroulé en officine, prise de rendez-vous.",
+      "duration_range_min": [
+        10,
+        30
+      ],
+      "what_to_bring": [
+        "Carte Vitale",
+        "Carnet de vaccination si disponible",
+        "Document d'identité si nécessaire"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "doctolib",
+            "url": "https://www.doctolib.fr/pharmacie/frejus/grande-pharmacie-de-tassigny"
+          },
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "En cas de signes graves ou urgents: 15 / 112."
+    },
+    {
+      "slug": "test-angine",
+      "name": "Test angine",
+      "category": "screening",
+      "short_promise": "Évaluer rapidement une angine selon le parcours officinal.",
+      "description": "Page service à construire: qui est concerné, conditions, limites, orientation médecin si nécessaire.",
+      "duration_range_min": [
+        10,
+        20
+      ],
+      "what_to_bring": [
+        "Carte Vitale",
+        "Ordonnance si déjà prescrite",
+        "Infos symptômes (sans formulaire)"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "Si difficulté respiratoire, douleur thoracique, altération majeure: 15 / 112."
+    },
+    {
+      "slug": "depistage-diabete",
+      "name": "Dépistage diabète",
+      "category": "screening",
+      "short_promise": "Faire un dépistage et être orienté selon le résultat.",
+      "description": "Page service à construire: public cible, déroulé, interprétation, orientation.",
+      "duration_range_min": [
+        10,
+        25
+      ],
+      "what_to_bring": [
+        "Carte Vitale"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "Ce service ne remplace pas une consultation médicale."
+    },
+    {
+      "slug": "entretien-anticoagulant",
+      "name": "Entretien anticoagulant",
+      "category": "clinical_support",
+      "short_promise": "Sécuriser son traitement anticoagulant avec un entretien structuré.",
+      "description": "Page service à construire: objectifs, durée, documents, points de vigilance.",
+      "duration_range_min": [
+        15,
+        30
+      ],
+      "what_to_bring": [
+        "Ordonnances",
+        "Liste des traitements",
+        "Carnet/INR si applicable"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "En cas de saignement important ou malaise: 15 / 112."
+    },
+    {
+      "slug": "maintien-a-domicile",
+      "name": "Maintien à domicile",
+      "category": "medical_equipment",
+      "short_promise": "Être accompagné pour le maintien à domicile et le matériel.",
+      "description": "Page service à construire: prise de besoin, devis, délais, livraison, installation selon organisation.",
+      "duration_range_min": [
+        10,
+        30
+      ],
+      "what_to_bring": [
+        "Ordonnance si prescrite",
+        "Mesures si utile (taille, tour de mollet, etc.)"
+      ],
+      "booking": {
+        "primary_cta_label": "Nous contacter",
+        "channels": [
+          {
+            "type": "phone",
+            "value": "+33 4 94 51 58 02"
+          }
+        ]
+      },
+      "safety_notice": "En cas d'urgence vitale: 15 / 112."
+    },
+    {
+      "slug": "location-vente-materiel-medical",
+      "name": "Location et vente de matériel médical",
+      "category": "medical_equipment",
+      "short_promise": "Trouver le matériel adapté et organiser la mise à disposition.",
+      "description": "Page service à construire: catalogue de familles, modalités, délais, documents.",
+      "duration_range_min": [
+        10,
+        30
+      ],
+      "what_to_bring": [
+        "Ordonnance si prescrite",
+        "Informations logistiques (adresse, étage)"
+      ],
+      "booking": {
+        "primary_cta_label": "Nous contacter",
+        "channels": [
+          {
+            "type": "phone",
+            "value": "+33 4 94 51 58 02"
+          }
+        ]
+      },
+      "safety_notice": "Ce service est logistique et d'accompagnement, pas un diagnostic."
+    },
+    {
+      "slug": "orthopedie-orthese-contention",
+      "name": "Orthopédie, orthèses et compression veineuse",
+      "category": "specialty",
+      "short_promise": "Mesures, conseils et orientation pour orthèses et contention.",
+      "description": "Page service à construire: prise de mesures, conditions, RDV conseillé, checklists.",
+      "duration_range_min": [
+        15,
+        45
+      ],
+      "what_to_bring": [
+        "Ordonnance si prescrite",
+        "Chaussures adaptées (si orthèse/semelles)",
+        "Mesures si déjà connues"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "Douleur intense, œdème brutal, dyspnée: urgence médicale."
+    },
+    {
+      "slug": "protheses-mammaires-capillaires",
+      "name": "Prothèses mammaires et capillaires",
+      "category": "specialty",
+      "short_promise": "Un accompagnement discret et personnalisé.",
+      "description": "Page service à construire: confidentialité, RDV, prise de mesures, parcours.",
+      "duration_range_min": [
+        30,
+        60
+      ],
+      "what_to_bring": [
+        "Ordonnance si prescrite",
+        "Documents de prise en charge si disponibles"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "phone",
+            "value": "+33 4 94 51 58 02"
+          }
+        ]
+      },
+      "safety_notice": "Service confidentiel. Pas de collecte en ligne de données sensibles."
+    },
+    {
+      "slug": "diagnostic-de-peau",
+      "name": "Diagnostic de peau",
+      "category": "dermocosmetics",
+      "short_promise": "Comprendre son type de peau et choisir une routine cohérente.",
+      "description": "Page service à construire: protocole, durée, recommandation, limites.",
+      "duration_range_min": [
+        10,
+        30
+      ],
+      "what_to_bring": [
+        "Venir démaquillé si possible",
+        "Produits actuels (optionnel)"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "Ne remplace pas un avis dermatologique en cas de lésion suspecte."
+    },
+    {
+      "slug": "sevrage-tabagique",
+      "name": "Sevrage tabagique",
+      "category": "prevention",
+      "short_promise": "Construire un plan de sevrage progressif et suivi.",
+      "description": "Page service à construire: évaluation, options, suivi, limites.",
+      "duration_range_min": [
+        15,
+        30
+      ],
+      "what_to_bring": [
+        "Historique de consommation (à verbaliser sur place)"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "En cas de détresse ou urgence: 15 / 112."
+    },
+    {
+      "slug": "aromatherapie",
+      "name": "Aromathérapie",
+      "category": "advice",
+      "short_promise": "Choisir des huiles essentielles avec des règles de sécurité.",
+      "description": "Page service à construire: indications usuelles, contre-indications, conseils.",
+      "duration_range_min": [
+        5,
+        20
+      ],
+      "what_to_bring": [
+        "Ordonnances si traitement en cours (optionnel)"
+      ],
+      "booking": {
+        "primary_cta_label": "Nous contacter",
+        "channels": [
+          {
+            "type": "phone",
+            "value": "+33 4 94 51 58 02"
+          }
+        ]
+      },
+      "safety_notice": "Grossesse, enfant, asthme, épilepsie: avis indispensable avant usage."
+    },
+    {
+      "slug": "accompagnement-maman-bebe",
+      "name": "Accompagnement futures et jeunes mamans",
+      "category": "support",
+      "short_promise": "Conseils et orientation pour la grossesse et le post-partum.",
+      "description": "Page service à construire: besoins fréquents, sécurité, orientation.",
+      "duration_range_min": [
+        10,
+        25
+      ],
+      "what_to_bring": [
+        "Carnet de maternité (optionnel)",
+        "Ordonnance si prescrite"
+      ],
+      "booking": {
+        "primary_cta_label": "Prendre rendez-vous",
+        "channels": [
+          {
+            "type": "mypharmactiv_agenda",
+            "url": "https://www.mypharmactiv.fr/compte/agenda"
+          }
+        ]
+      },
+      "safety_notice": "Si douleur importante, saignements, fièvre: consulter rapidement."
+    }
+  ],
+  "notes": [
+    "Catalogue initial à valider et prioriser (top 10)."
+  ]
+}
