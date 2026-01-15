@@ -1,8 +1,17 @@
 import { clsx, type ClassValue } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
+export const BASE_PATH = '/gpdt'
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
+}
+
+export function assetPath(path: string): string {
+  if (path.startsWith('/') && !path.startsWith(BASE_PATH)) {
+    return `${BASE_PATH}${path}`
+  }
+  return path
 }
 
 /**

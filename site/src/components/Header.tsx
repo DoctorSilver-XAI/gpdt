@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X, Calendar, ChevronRight } from 'lucide-react'
-import { cn } from '@/lib/utils'
+import { cn, assetPath } from '@/lib/utils'
 
 const NAV_ITEMS = [
   { href: '/services', label: 'Services' },
@@ -47,7 +47,7 @@ export function Header({ pharmacyName }: HeaderProps) {
           <Link href="/" className="flex items-center gap-3 min-h-0 min-w-0 group">
             <div className="relative">
               <Image
-                src="/brand/logo.png"
+                src={assetPath('/brand/logo.png')}
                 alt=""
                 width={40}
                 height={40}

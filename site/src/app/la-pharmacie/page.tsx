@@ -5,6 +5,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { SimpleGallery } from '@/components/SimpleGallery'
 import { loadPharmacy, loadTeam, loadServices } from '@/lib/content'
+import { assetPath } from '@/lib/utils'
 import { promises as fs } from 'fs'
 import path from 'path'
 
@@ -24,7 +25,7 @@ async function getGalleryImages() {
     for (const file of interiorFiles) {
       if (/\.(jpg|jpeg|png|webp|avif)$/i.test(file)) {
         images.push({
-          src: `/media/interior/${file}`,
+          src: assetPath(`/media/interior/${file}`),
           alt: `Intérieur de la pharmacie - ${file.replace(/\.[^.]+$/, '')}`,
           category: 'interior',
         })
@@ -37,7 +38,7 @@ async function getGalleryImages() {
     for (const file of exteriorFiles) {
       if (/\.(jpg|jpeg|png|webp|avif)$/i.test(file)) {
         images.push({
-          src: `/media/exterior/${file}`,
+          src: assetPath(`/media/exterior/${file}`),
           alt: `Extérieur de la pharmacie - ${file.replace(/\.[^.]+$/, '')}`,
           category: 'exterior',
         })

@@ -11,7 +11,7 @@ import { LoyaltyCard } from '@/components/LoyaltyCard'
 import { LoyaltyBadge } from '@/components/LoyaltyBadge'
 import { OffersSection } from '@/components/OffersSection'
 import { loadPharmacy, loadServices, loadFaq } from '@/lib/content'
-import { formatPhone } from '@/lib/utils'
+import { formatPhone, assetPath } from '@/lib/utils'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { AffluenceChart } from '@/components/AffluenceChart'
 
@@ -106,7 +106,7 @@ export default async function HomePage() {
             <div className="relative order-1 lg:order-2">
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5">
                 <Image
-                  src="/media/exterior/exterieur-1.webp"
+                  src={assetPath('/media/exterior/exterieur-1.webp')}
                   alt={`Façade de la ${pharmacy.identity.display_name}`}
                   fill
                   className="object-cover"
